@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Blog Post Template</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>My Dev Blog</h1>
+    <p class="tagline">Thoughts on web development and technology</p>
+  </header>
+  <main>
+    <article class="blog-post">
+      <header>
+        <h2>The Importance of Semantic HTML</h2>
+        <p class="meta">
+          By <strong>Alex Carter</strong> |
+          <time datetime="2025-07-22">July 22, 2025</time>
+        </p>
+      </header>
+      <figure>
+        <img src="C:\Users\Dell\Desktop\Web development\Q3\html tags.png" alt="Diagram of semantic HTML tags" />
+        <figcaption>Semantic tags help structure content meaningfully.</figcaption>
+      </figure>
+      <section>
+        <h3>Why Semantic HTML Matters</h3>
+        <p>
+          Semantic HTML improves accessibility, SEO, and maintainability.
+          It helps search engines and screen readers understand your content better.
+        </p>
+        <p>
+          Tags like <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;time&gt;</code> give meaning
+          to the content beyond its appearance.
+        </p>
+      </section>
+      <section>
+        <h3>Common Semantic Tags</h3>
+        <ul>
+          <li><strong>&lt;header&gt;</strong> – Page or section header</li>
+          <li><strong>&lt;nav&gt;</strong> – Navigation links</li>
+          <li><strong>&lt;article&gt;</strong> – Independent content</li>
+          <li><strong>&lt;section&gt;</strong> – Thematic grouping</li>
+          <li><strong>&lt;footer&gt;</strong> – Footer content</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Conclusion</h3>
+        <p>
+          Writing semantic HTML isn't just good practice—it’s essential. 
+          It ensures your websites are more accessible and easier to maintain over time.
+        </p>
+      </section>
+      <footer>
+        <p class="tags">Tags: <a href="#">HTML</a>, <a href="#">Accessibility</a>, <a href="#">Best Practices</a></p>
+      </footer>
+    </article>
+    <section class="comments">
+      <h3>Leave a Comment</h3>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" rows="5" required></textarea>
+        <button type="submit">Post Comment</button>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; 2025 My Dev Blog. All rights reserved.</p>
+  </footer>
+</body>
+</html>
