@@ -3,9 +3,7 @@
 A clean and semantic HTML blog post template for developers and writers. This template showcases the structure of a blog article using modern, accessible, and semantic HTML5 elements.
 
 🌐 Live Demo
-
-👉 [View Live on GitHub Pages](https://HARINISRI2907.github.io/Question_3)  
-*(Replace with your actual GitHub Pages link)*
+👉 (https://HARINISRI2907.github.io/Question_3)  
 
 📋 Project Overview
 
