@@ -1,0 +1,146 @@
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Georgia, serif;
+  background: #fdfdfd;
+  color: #333;
+  padding: 20px;
+  line-height: 1.7;
+}
+
+/* Site Header */
+.site-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.site-header h1 {
+  font-size: 2.5rem;
+  color: #004080;
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Article Styling */
+.blog-post {
+  max-width: 750px;
+  margin: 0 auto 40px auto;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.blog-post header h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.meta {
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+figure {
+  margin: 20px 0;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+figcaption {
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 5px;
+}
+
+section h3 {
+  margin-top: 25px;
+  font-size: 1.3rem;
+  color: #005e80;
+}
+
+ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style: disc;
+}
+
+/* Footer inside article */
+.blog-post footer {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #cea9a9;
+}
+
+.tags a {
+  color: #00a7cc;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Comment Form */
+.comments {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f4f8fb;
+  border: 1px solid #ccd;
+  border-radius: 6px;
+}
+
+.comments h3 {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 1rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+form button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #005a80;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0089b3;
+}
+
+/* Site Footer */
+.site-footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.9rem;
+  color: #666;
+}
